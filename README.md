@@ -38,11 +38,26 @@ https://git-scm.com/download
 
 - git add .
     - Adiciona tudo e todas as alterações da pasta
+- git config credential.helper store
+    - Autorizar push no github sem perguntar senha
 
 - git remote add origin https://github.com/gustavovalle23/git.git
     - Inicializar repositório no Github após criá-lo no github
 - git push -u origin master
     - Criar branch master
+
+- git clone https://github.com/gustavovalle23/Agenda-em-C.git
+    - Clonar o projeto para si na pasta atual
+
+- git checkout -b teste
+    - Criar a branch e mudar para ela
+
+- git commit -am "update agenda.c"
+    - Commit com add + mensage
+
+- git pull
+    - Atualizar repositório local com base no repositório remoto. Para casos de contribuições para o mesmo projeto
+
 
 ### Anotações
 *   O git não pega todos os arquivos da pasta. Ele pega os arquivos que colocamos em observação com o 'git add'. E com o git commit ele pega esses arquivos e manda pro ponto da história
@@ -56,21 +71,21 @@ https://git-scm.com/download
 - [x] Você deseja criar pontos na história da produção do seu projeto
 - [x] Você deseja verificar mudanças feitas no seu projeto
 
-- [ ] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
+- [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
 
-- [ ] Você adiciona as novas funcionalidades ao seu projeto em produção
+- [x] Você adiciona as novas funcionalidades ao seu projeto em produção
 
-- [ ] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
+- [x] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
 
-- [ ] Você quer colocar seu projeto na nuvem.
+- [x] Você quer colocar seu projeto na nuvem.
 
-- [ ] Você vai pegar um projeto já iniciado, para trabalhar com o time
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
 
-- [ ] Você precisa resolver um conflito.
+- [x] Você precisa resolver um conflito.
 
-- [ ] Antes de enviar a resolução, precisamos atualizar o projeto local.
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
 
-- [ ] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+- [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
 
 - [ ] Você precisa recuperar algo deletado.
 
