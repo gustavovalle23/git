@@ -69,7 +69,10 @@ https://git-scm.com/download
 
 * Simulação de Conflito2
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> conflito
 # SCENES
 
 
