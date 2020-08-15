@@ -66,7 +66,6 @@ https://git-scm.com/download
 
 
 
-# SCENES
 
 
 - [x] Você deseja criar pontos na história da produção do seu projeto
