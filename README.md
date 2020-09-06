@@ -1,20 +1,35 @@
 # GIT E GITHUB
 
-Guia Prático com base na Rocketseat
+Guia Prático com base nos tutoriais da Rocketseat e blog.cedrotech
+
+
+## Breve explicação
+Esse repositório tem como objetivo tratar de maneira bem didática os conceitos e utilização do git. Para isso, em alguns momentos, será necessário usar palavras não muito corretas, mas para didática mais fácil e entendimento rápido.
+
+O git é um sistema de controle de versões. Basicamente, você quer que o seu código esteja com muitos "backups" para caso você queira olhar, modificar ou desfazer algo que você já fez, é possível. 
+
+### Repositório e Branch
+Quando você cria um repositório, é algo como um projeto, uma pasta ou um sistema. Nele você pode colocar várias branchs. Uma branch é como se fosse uma linha do tempo. Imagina que você queira adicionar uma funcionalidade no seu código, mas isso pode acarretar em vários bugs e vai ser difícil e trabalhoso desfazer o que você fez. Simples, você cria uma branch. Criando essa linha do tempo, tudo que você fizer nela, fica nela (até você decidir juntar com a master). Caso você queira desfazer, é só mudar pra branch master novamente e sucesso.
+## Commit
+Porém, se você gostou da alteração que você fez, você pode dar um commit (confirmação de alteração). Você geralmente coloca uma mensagem pra falar o que você mudou ou o que adicionou para que você ou outros colaboradores possam entender o que foi feito naquela alteração. E se você quiser ver ou voltar para aquele momento daquela alteração, você pode também.
+
 
 ### Instalação
 
 https://git-scm.com/download
 
 ### Comandos:
+(esses comandos foram realizados no ambiente Linux, mas raramente serão diferentes no Windows)
+
+
 - git init
-    - Iniciar repositório
+    - Iniciar repositório naquele diretório (pasta)
 - touch landingpage.html
     - Criar arquivo landingpage.html
 - git add landingpage.html
-    - Adicionar arquivo ao repositório
+    - Adicionar arquivo ao repositório local.
 - git commit -m "added landing page"
-    - Fazer commit com comentário
+    - Fazer commit com comentário. Cada commit vai ter um código, com 7bc79ed0ba4d516318b3545ab88822a7ee8bfb99 junto com o comentário
 - git log
     - Ver logs dos commits (pontos na história do projeto)
 - git status
@@ -23,17 +38,17 @@ https://git-scm.com/download
     - Mostra o que foi alterado naquele commit
 - git show
     - Mostra o último ponto na história
-- git branch feature/cart
+- git branch featureNova
     - Criar linha do tempo alternativa
-- git checkout feature/cart
+- git checkout featureNova
     - Mudar para linha do tempo alternativa
 - git checkout master
     - Voltar para a linha do tempo principal
 - git branch
     - Mostra todas as ramificações (linhas do tempo)
-- git merge feature/cart
+- git merge featureNova
     - Une a linha do tempo alternativa com a master
-- git branch -D feature/cart
+- git branch -D featureNova
     - Deleta a branch
 
 - git add .
@@ -67,17 +82,11 @@ https://git-scm.com/download
 
 * Com o git log, ele mostra o commit com seu código. Copiamos esse código e colocamos no 'git show' com esse código
 
-* Simulação de Conflito2
 
-<<<<<<< HEAD
-
-=======
->>>>>>> conflito
 # SCENES
 
-
 - [x] Você deseja criar pontos na história da produção do seu projeto
-
+confirmações de alterações
 - [x] Você deseja verificar mudanças feitas no seu projeto
 
 - [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
