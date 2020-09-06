@@ -75,6 +75,9 @@ https://git-scm.com/download
 
 - git pull
     - Atualizar repositório local com base no repositório remoto. Para casos de contribuições para o mesmo projeto
+    
+ - git push
+    - Envia todas as alterações que você fez para o repositório remoto (github ou Bitbucket)
 
 
 ### Anotações
