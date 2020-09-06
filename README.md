@@ -1,7 +1,9 @@
 # GIT E GITHUB
 
 Guia Prático com base nos tutoriais da Rocketseat e blog.cedrotech
-
+https://www.youtube.com/watch?v=2alg7MQ6_sI&vl=pt
+https://blog.cedrotech.com/git-o-minimo-que-voce-precisa-saber-para-trabalhar-em-equipe/
+https://blog.cedrotech.com/git-o-minimo-que-voce-precisa-saber-para-trabalhar-em-equipe-parte-2/
 
 ## Breve explicação
 Esse repositório tem como objetivo tratar de maneira bem didática os conceitos e utilização do git. Para isso, em alguns momentos, será necessário usar palavras não muito corretas, mas para didática mais fácil e entendimento rápido.
