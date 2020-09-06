@@ -10,7 +10,7 @@ O git é um sistema de controle de versões. Basicamente, você quer que o seu c
 
 ### Repositório e Branch
 Quando você cria um repositório, é algo como um projeto, uma pasta ou um sistema. Nele você pode colocar várias branchs. Uma branch é como se fosse uma linha do tempo. Imagina que você queira adicionar uma funcionalidade no seu código, mas isso pode acarretar em vários bugs e vai ser difícil e trabalhoso desfazer o que você fez. Simples, você cria uma branch. Criando essa linha do tempo, tudo que você fizer nela, fica nela (até você decidir juntar com a master). Caso você queira desfazer, é só mudar pra branch master novamente e sucesso.
-## Commit
+### Commit
 Porém, se você gostou da alteração que você fez, você pode dar um commit (confirmação de alteração). Você geralmente coloca uma mensagem pra falar o que você mudou ou o que adicionou para que você ou outros colaboradores possam entender o que foi feito naquela alteração. E se você quiser ver ou voltar para aquele momento daquela alteração, você pode também.
 
 
